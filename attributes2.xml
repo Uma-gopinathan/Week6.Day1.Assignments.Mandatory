@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Attributes2">
+	<test thread-count="5" name="Handson" verbose="5">
+		<groups>
+			<run>	
+			<exclude name="duplicate"/></run>				
+		</groups>
+
+			<classes>
+				<class name="Week6.Day1.Assignments.Mandatory.Attributes2" />
+			</classes>
+	</test> <!-- Handson -->
+</suite> <!-- Attributes2 -->
